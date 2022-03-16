@@ -1,0 +1,35 @@
+[
+  {
+    "label": "Email",
+    "name": "email",
+    "type": "text"
+  },
+  {
+    "label": "Phone",
+    "name": "user_phone",
+    "type": "text"
+  },
+  {
+    "label": "Name",
+    "name": "user_name",
+    "type": "text"
+  },
+  {
+    "label": "Company",
+    "name": "company",
+    "type": "text"
+  },
+  {
+    "label": "country",
+    "name": "country",
+    "type": "dropdown",
+    "API": "/APIs/countries-api",
+    "multiple": false,
+    "shownLabelPropertyPath": "Response.Name"
+  },
+  {
+    "label": "Date",
+    "name": "date",
+    "type": "date"
+  }
+]
